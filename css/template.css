@@ -72,6 +72,12 @@
     margin-left: 2%;
     opacity: 0.6;
 }
+.moviletv{
+    display: none;
+}
+.movilelogo{
+    display: none;
+}
 /*Media para que flexbox haga responsiva el sitio*/
 @media all and (max-width:1220px){
     .template-text{
@@ -90,8 +96,18 @@
         margin-right: 5%;
     }
 }
-
-@media all and (max-width:500px){
+@media all and (max-width:1200px){
+    .img-cuad{
+        display: none;
+    }
+    .moviletv{
+        display: block;
+    }
+    .movilelogo{
+        display: block;
+    }
+}
+@media all and (max-width:600px){
     .img-text{
         font-size: 15px;
         text-align: center;
@@ -100,19 +116,31 @@
         text-align: center;
         margin-right: 5%;
     }
+    .form{
+        margin:  5% 200px 0px 50px;
+    }
     .button{
         width: 120px;
         height: 39px;
     }
     .input{
-        width: 300px;
+        width: 200px;
         height: 18px;
     }
     .form{
         align-content: center;
     }
+    .img-cuad{
+        display: none;
+    }
+    .moviletv{
+        margin-top: 5%;
+        display: block;
+    }
 }
+@media all and (max-width:1200px){
 
+}
 @media all and (max-width:400px){
     .img-text{
         font-size: 13px;
