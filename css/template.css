@@ -72,3 +72,50 @@
     margin-left: 2%;
     opacity: 0.6;
 }
+/*Media para que flexbox haga responsiva el sitio*/
+@media all and (max-width:1220px){
+    .template-text{
+        flex-direction: column;
+    }
+    .img-cuad{
+        margin-top: 5%;
+    }
+    .img-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .img-subtext{
+        font-size: 10px;
+        text-align: center;
+        margin-right: 5%;
+    }
+}
+
+@media all and (max-width:500px){
+    .img-text{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img-subtext{
+        text-align: center;
+        margin-right: 5%;
+    }
+    .button{
+        width: 120px;
+        height: 39px;
+    }
+    .input{
+        width: 300px;
+        height: 18px;
+    }
+    .form{
+        align-content: center;
+    }
+}
+
+@media all and (max-width:400px){
+    .img-text{
+        font-size: 13px;
+        text-align: center;
+    }
+}
