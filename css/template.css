@@ -70,10 +70,11 @@
 .img-cuad {
     width: 50%;
     margin-left: 2%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 .moviletv{
     display: none;
+    opacity: 0.5;
 }
 .movilelogo{
     display: none;
@@ -137,9 +138,6 @@
         margin-top: 5%;
         display: block;
     }
-}
-@media all and (max-width:1200px){
-
 }
 @media all and (max-width:400px){
     .img-text{
