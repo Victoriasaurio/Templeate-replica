@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 .main {
     padding: 55px 2%;
 }
@@ -20,7 +20,7 @@
     margin-right: 29%;
     font-size: 16px;
     color: #fff;
-    font-family: var(--fontMedium);
+    font-family: 'Poppins', sans-serif;
 }
 .form {
     display: flex;
@@ -34,7 +34,7 @@
     border-radius: 3px;
     margin-left: 30%;
     padding: 10px;
-    font-family: var(--fontLight);
+    font-family: 'Poppins', sans-serif;
 }
 .button {
     width: 150px;
@@ -43,14 +43,14 @@
     border-radius: 3px;
     background: linear-gradient(to right, #8e2de2, #4a00e0);;
     text-transform: uppercase;
-    font-family: var(--fontMedium);
+    font-family: 'Poppins', sans-serif;
     color: #FFF;
     
 }
 .img-text{
    font-size: 40px; 
    color: #fff;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
   .img-text  strong {
     padding-bottom:5px;
@@ -95,15 +95,34 @@
         text-align: center;
         margin-right: 5%;
     }
-
+    .form{
+        margin:  5% 250px 0px 50px;
+    }
     .img-cuad{
         display: none;
     }
     .moviletv{
+        margin-top: 5%;
         display: block;
     }
     .movilelogo{
         display: block;
+    }
+}
+
+/*ipadPro*/
+@media all and (max-width:1100px){
+    .movilelogo{
+        margin-top: 175px;
+    }
+    .img-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .img-subtext{
+        text-align: center;
+        font-size: 18px;
+        
     }
 }
 
@@ -136,11 +155,26 @@
     .moviletv{
         margin-top: 5%;
         display: block;
+        border-radius: 30px;
+        opacity: 0.5;
+    }
+    .movilelogo{
+        margin-top:5%;
     }
 }
+/*iphone x*/
 @media all and (max-width:400px){
+    .movilelogo{
+        margin-top: 83px;
+    }
     .img-text{
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
     }
+    .img-subtext{
+        text-align: center;
+        font-size: 8px;
+        
+    }
+
 }
