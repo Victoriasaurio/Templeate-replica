@@ -12,15 +12,31 @@ body {
         background-size: 100% 100%;
     }
 }
+
 @font-face {
-    font-family: "Montserrat-Light";
-    src: url('/css/fonts/Montserrat-Light.ttf');
+    font-family: "Poppins-Thin";
+    src: url('/css/fonts/Poppins-Thin.ttf');
 }
 @font-face {
-    font-family: "Montserrat-Medium";
-    src: url('/css/fonts/Montserrat-Medium.ttf');
+    font-family: "Poppins-ExtraLight";
+    src: url('/css/fonts/Poppins-ExtraLight.ttf');
 }
-:root {
-    --fontLight: "Montserrat-Light";
-    --fontMedium: "Montserrat-Medium";
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url('/css/fonts/Poppins-Bold.ttf');
+}
+@font-face{
+    font-family: "Poppins-Light";
+    src: url('/css/fonts/Poppins-Light.ttf')
+}
+@font-face{
+    font-family: "Poppins-Regular";
+    src: url('/css/fonts/Poppins-Regular.ttf')
+}
+:root{
+   --fontThin:"Poppins-Thin";
+   --fontExtraLight:"Poppins-ExtraLight";
+   --fontBold:"Poppins-Bold";
+   --fontLight:"Poppins-Light";
+   --fontRegular:"Poppins-Regular"
 }
